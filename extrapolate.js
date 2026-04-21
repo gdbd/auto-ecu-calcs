@@ -1,5 +1,8 @@
 const xlsx = require('xlsx');
 
+/*
+сделай еще один скрипт - экстраполяция ячеек на вкладке current из B3:Q18 (оси B2:Q2 A3:A18) в B21:AG44 (оси B48:AG48 A21:A44)
+*/
 // --- Конфигурация ---
 const FILE_NAME = './vtc-calc-2.ods';
 const SHEET_TARGET = 'current';
